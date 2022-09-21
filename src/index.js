@@ -16,4 +16,4 @@ function createWriteStream (options = {}) {
   return pumpify(parseJsonStream, batchStream, writeStream)
 }
 
-module.exports.createWriteStream = createWriteStream
+module.exports = createWriteStream;
